@@ -61,7 +61,7 @@
     color: tomato;
 }
 .hero-box2{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 100%;
     width: 50%;
 }
@@ -76,7 +76,7 @@
 }
 
 .hero-image{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding: 15%;
     height: 100%;  
     padding-top: 30%;
