@@ -1,0 +1,560 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500&family=Pacifico&display=swap');
+.row{
+    margin: 0 auto;
+    max-width: 90%;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+.navbar-brand{
+    color: red;
+    font-size: 30px;
+    font-family: Franklin Gothic Medium;
+}
+/* header{
+    /* background-color: green; */
+/* } */
+.nav-link{
+    color: solid blue;
+}
+.btn{
+    border: 5px solid #fff;
+    border-radius: 50px;
+    color: red;
+    font-size: large;
+}
+
+/* ============================hero section===================== */
+
+.hero-container{
+    /* border: 2px dashed blue; */
+    height: 100vh;
+    display: flex;
+    background-color: teal;
+}
+.hero-box1{
+    /* border: 2px solid black; */
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.welcome{
+    color: #fff;
+    font-size: 50px;
+    font-family: geneva;
+}
+.name{
+    font-size: 50px;
+    color: #fff;
+    font-family: geneva;
+}
+.auto_type{
+    font-size: xx-large;
+    color: #fff;
+}
+.auto-type{
+    font-size: xx-large;
+    color: tomato;
+}
+.hero-box2{
+    border: 2px solid black;
+    height: 100%;
+    width: 50%;
+}
+
+.hero-text{
+    /* border: 3px solid red; */
+    padding-top: 30%;
+    padding-left: 15%;
+    text-align: left;
+    height: 100%;
+    width: 100%;
+}
+
+.hero-image{
+    border: 2px solid red;
+    padding: 15%;
+    height: 100%;  
+    padding-top: 30%;
+    padding-left: 15%;
+}
+img{
+    border-radius: 50%; 
+}
+
+/* ============================about section===================== */
+
+.about{
+    padding: 15px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+.about-container{
+   /* border: 2px dashed blue; */
+   height: 92vh;
+   display: flex;
+   /* background-color: rgb(188, 222, 224); */
+}
+.about-box1{
+    /* border: 2px solid black; */
+    width: 50%;
+    height: 100%;
+}
+.about-image{
+    /* border: 2px dashed green; */
+    padding: 10%;
+    height: 100%;
+}
+.about-box2{
+    /* border: 2px solid black; */
+    width: 50%;
+    height: 100%;
+}
+.about-text{
+    padding: 15%;
+    /* background-color: ; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/* ============================services section===================== */
+
+.services{
+    padding: 15px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+.services_section{
+    background-color: rgb(233, 233, 233);
+}
+.services-container{
+    /* border: 2px solid yellow; */
+    padding-top: 7%;
+    padding-bottom: 7%;
+    display: flex;
+    justify-content: space-between;
+}
+.service1{
+    background-color: rgba(128, 128, 128, 0.26);
+    width: 30%;
+    height: 100%;
+    padding: 50px;
+    text-align: center;
+}
+/* .service1 h3{
+    text-align: center;
+} */
+.service1:hover{
+    background: white;
+  transform: scale(1.05);
+  transition: all 0.5s ease-in-out;
+} 
+.fa-center{
+    display: flex;
+    justify-content: center;
+}
+.fa-laptop{
+    /* border: 4px solid blue; */
+    background-color: black;
+    padding: 2525px;
+    color: tomato;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.fa-laptop:hover{
+    background: tomato;
+    color: black;
+}
+.fa-video-camera{
+    /* border: 4px solid blue; */
+    background-color: black;
+    padding: 25px;
+    color: tomato;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.fa-video-camera:hover{
+    background: tomato;
+    color: black;
+}
+.fa-camera-retro{
+    /* border: 4px solid blue; */
+    background-color: black;
+    padding: 25px;
+    color: tomato;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.fa-camera-retro:hover{
+    background: tomato;
+    color: black;
+}
+.services-container2{
+    padding-bottom: 7%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.service2{
+    background-color: rgba(128, 128, 128, 0.26);
+    width: 30%;
+    height: 100%;
+    /* margin-top: 20px; */
+    padding: 50px;
+    justify-content: center;
+    text-align: center;
+}
+.service2:hover{
+    background: white;
+  transform: scale(1.05);
+  transition: all 0.5s ease-in-out;
+}
+.fa-laptop{
+    /* border: 4px solid blue; */
+    background-color: black;
+    padding: 25px;
+    color: tomato;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.fa-laptop:hover{
+    background: tomato;
+    color: black;
+}
+.fa-video-camera{
+    /* border: 4px solid blue; */
+    background-color: black;
+    padding: 25px;
+    color: tomato;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.fa-video-camera:hover{
+    background: tomato;
+    color: black;
+}
+
+/* ============================portfolio section===================== */
+
+.portfolio{
+    padding: 15px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+.portfolio_container{
+    /* border: 3px solid green; */
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.container{
+    /* border: 2px solid red; */
+    /* height: 85vh; */
+    width: 90%;
+    /* margin-top:15px; */
+    padding: 60px 50px;
+    /* box-shadow: 5px 4px 4px 5px rgba(0,0,0,0.15); */
+}
+/* .container1{
+    border: 2px solid black;
+    height: 30%;
+     width: 30%;
+    box-shadow: 5px 4px 4px 5px rgba(0,0,0,0.15);
+    padding-bottom: 15px;
+} */
+.port-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+}
+.container2{
+    /* border: 2px solid black; */
+    height: 50%;
+    width: 100%;
+    padding: 30px 40px;
+    /* font-weight: bold; */
+    /* font-size: 16px; */
+    text-align: center;
+    color: #fff;
+    background: teal;
+    box-shadow: 5px 4px 4px 5px rgba(0,0,0,0.15);
+}
+
+/* ============================contact section===================== */
+.contact_box{
+    padding: 15px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+.contact-container{
+    /* border: 3px solid green; */
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: rgb(233, 233, 233);
+}
+.contact-box{
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 50%;
+}
+.contact-message{
+    /* border: 2px dashed red; */
+    /* height: 100%; */
+    width: 50%;
+}
+.message-box{
+    border: 1px solid rgb(230, 230, 230);
+    padding: 60px 50px;
+    height: 100%;
+}
+.name-label{
+    /* border: 2px solid yellowgreen; */
+    padding: 10px;
+    font-size: larger;
+    font-family: 'times new roman';
+    color: brown;
+    font-weight: bold;
+}
+.email-label{
+    /* border: 2px solid yellowgreen; */
+    padding: 10px;
+    font-size: larger;
+    font-family: 'times new roman';
+    color: brown;
+    font-weight: bold;
+}
+.message-label{
+    /* border: 2px solid yellowgreen; */
+    padding: 10px;
+    font-size: larger;
+    font-family: 'times new roman';
+    color: brown;
+    font-weight: bold;
+}
+.submit-btn{
+    padding: 10px;
+}
+.btn-primary{
+    color: #fff;
+    background: teal;
+}
+.btn-primary:hover{
+    color:black;
+    background: brown;
+}
+.contact_means{
+    /* border: 3px solid black; */
+    padding: 60px 90px;
+    height: 100%;
+}
+.enquiry{
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: brown;
+}
+.tel{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: flex-start;
+    /* padding: 20px; */
+}
+.fa-phone{
+    /* border: 2px solid green; */
+    padding: 15px;
+    background: teal;
+    color: #fff;
+    border-radius: 50px;
+
+}
+.tel-number{
+    padding: 10px;
+}
+.whatsapp{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: flex-start;
+    /* padding-top: 10px; */
+}
+.fa-whatsapp{
+    /* border: 2px solid red; */
+    padding: 15px;
+    background: rgb(27, 240, 27);
+    color: #fff;
+    border-radius: 50px;
+}
+.tel-number1{
+    padding: 10px;
+}
+.email{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: flex-start;
+    /* padding: 20px; */
+}
+.fa-at{
+    /* border: 2px solid red; */
+    padding: 15px;
+    background: rgb(216, 79, 55);
+    color: #fff;
+    border-radius: 50px;
+}
+.gmail{
+    padding: 10px;
+}
+.follow{
+    /* border: 2px solid red; */
+    padding: 8px;
+}
+.social-media{
+    /* border: 2px solid red; */
+    padding: 10px;
+}
+.fa-linkedin-in{
+    padding: 15px;
+    background: rgb(31, 31, 121);
+    color: #fff;
+    border-radius: 50px;
+}
+.fa-github{
+    padding: 15px;
+    background: black;
+    color: #fff;
+    border-radius: 50px;
+}
+.fa-facebook{
+    padding: 15px;
+    background: rgb(15, 32, 190);
+    color: #fff;
+    border-radius: 50px;
+}
+.fa-instagram{
+    padding: 15px;
+    background: rgb(190, 15, 175);
+    color: #fff;
+    border-radius: 50px;
+}
+.footer{
+    padding: 10px;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    
+}
+.fa-copyright{
+    color: #fff;
+    text-align: center;
+}
+@media screen and (max-width: 900px){
+    .hero-container{
+        flex-direction: column-reverse;
+    }
+    .hero-box1{
+        border: 2px solid blue;
+        width: 100%;
+        font-size: medium;
+    }
+
+    .hero-text{
+        padding: 65px;
+        padding-top: 80px;
+    }
+    .welcome{
+        font-size: 30px;
+        font-family: geneva;
+    }
+    .name{
+        font-size: 25px;
+        color: #fff;
+        font-family: geneva;
+    }
+    .auto_type{
+        font-size: 25px;
+        color: #fff;
+    }
+    .auto-type{
+        font-size: 25px;
+        color: tomato;
+        padding-left: 2px;
+    }
+    .hero-box2{
+        border: 2px solid black;
+        /* height: 100%; */
+        width: 100%;
+    }
+    .about-container{
+        /* border: 2px solid red; */
+      flex-direction: column;
+      
+     }
+     .about-box1{
+        /* border: 2px solid black; */
+        width: 100%;
+        /* height: 100%; */
+    }
+    .about-image{
+        /* border: 2px dashed green; */
+        padding: 10%;
+        /* height: 100%; */
+    }
+    .about-box2{
+        /* border: 2px solid black; */
+        width: 100%;
+        /* height: 100%; */
+    }
+    .about-container{
+        height: 900px;
+     }
+    .services-container{
+       flex-direction: column;
+    }
+    .service1{
+        width: 100%;
+        height: 100%;
+        /* padding-bottom: 30px; */
+    }
+    .service2{
+        width: 100%;
+        height: 100%;
+    }
+    .portfolio_container{
+        flex-direction: column;
+        height: 100%;
+    }
+    .container{
+        width: 100%;
+    }
+    .contact-container{
+        flex-direction: column;
+        height: 100%;
+    }
+    .contact-box{
+        width: 100%;
+    }
+    .contact_means{
+        width: 100%;
+        padding: 30px;
+    }
+    .contact-message{
+        width: 100%;
+    }
+  
+}
